@@ -11,7 +11,16 @@ body {
 }
 
 /* Typography */
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-radial-gradient(0deg,#fafafa, #a1a1aa);
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+}
 
+.headline-1 {
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15] 
+}
 
 
 /* Utilities */
