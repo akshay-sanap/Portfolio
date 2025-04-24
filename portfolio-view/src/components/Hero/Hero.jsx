@@ -1,8 +1,6 @@
 import React from 'react';
-
-
-
-
+import './hero.css';
+import { ButtonPrimary, ButtonOutline } from '../Button/Button';
 
 const Hero = () => {
   return (
@@ -12,7 +10,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box h-9 w-9 rounded-lg">
               <img
-                src="/images/avatar-1.jpg"
+                src="/images/akshay.jpg"
                 width={40}
                 height={40}
                 alt="Akshay Sanap Portrait"
@@ -27,21 +25,26 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="headline-1 mb-8 mt-5 max-w-[15ch] sm:max-w-[20ch] lg:mb-10 lg:max-w-[15ch]">
-            Bulding Scalable Websites For the Future
+            Creating smart solutions for tomorrow, today.
           </h2>
           <div className="flex items-center gap-3">
-            ButtonPrimary ButtonOutline
+            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonOutline
+              href="#about"
+              label="Scroll down"
+              icon="arrow_downward"
+            />
           </div>
         </div>
 
         <div className="hidden lg:block">
-          <figure className="ml-auto w-full max-w-[480px] overflow-hidden rounded-[60px] bg-gradient-to-t from-sky-400 via-sky-400/40 via-25% to-65%">
+          <figure className="ml-auto w-full max-w-[480px] overflow-hidden rounded-[60px] bg-gradient-to-t from-sky-400 via-sky-400/40 via-25% to-sky-200 to-65%">
             <img
-              src="/images/hero-banner.png"
+              src="/images/akshay-demo.png"
               width={656}
               height={800}
               alt="Akshay Sanap"
-              className="w-full"
+              className="w-full object-cover"
             />
           </figure>
         </div>

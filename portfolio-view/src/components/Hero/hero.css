@@ -1,0 +1,40 @@
+/* HeroPage */
+.container {
+    @apply px-4 mx-auto
+}
+
+@media (min-width: 1024px) {
+    .container {
+        @apply px-8
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        @apply max-w-6xl
+    }
+}
+
+.img-box {
+    @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover {
+    @apply w-full h-full object-cover
+}
+
+
+.headline-1 {
+    @apply text-5xl leading-tight font-semibold max-w-max;
+    background: -webkit-radial-gradient(0deg, #fafafa, #a1a1aa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* color: transparent; */
+}
+
+
+@media (min-width: 1024px) {
+    .headline-1 {
+        @apply text-[55px] leading-[1.15]
+    }
+}

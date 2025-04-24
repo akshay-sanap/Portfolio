@@ -1,0 +1,35 @@
+/* Button Primary */
+
+.btn .material-symbols-rounded {
+    @apply text-[18px]
+}
+
+.btn:has(.material-symbols-rounded) {
+    @apply pr-3
+}
+
+
+.btn-primary {
+    @apply h-11 bg-sky-400 text-zinc-950
+}
+
+.btn-primary:hover {
+    @apply bg-sky-300
+}
+
+.btn-primary:active {
+    @apply bg-sky-400
+}
+
+/* Button Outline */
+.btn-outline {
+    @apply h-11 bg-zinc-800 
+}
+
+.btn-outline:hover {
+    @apply bg-zinc-700 text-white;
+}
+
+.btn-outline:active {
+    @apply bg-zinc-800 text-white;
+}
