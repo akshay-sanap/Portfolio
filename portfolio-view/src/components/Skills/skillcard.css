@@ -1,0 +1,7 @@
+.ess-tools {
+    @apply  flex items-center gap-3 rounded-2xl p-3 ring-2 ring-inset ring-zinc-50/10 transition-colors
+}
+
+.ess-tools:hover {
+    @apply bg-zinc-800
+}

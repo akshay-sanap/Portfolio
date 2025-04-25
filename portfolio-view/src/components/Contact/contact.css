@@ -1,0 +1,65 @@
+.headline-2 {
+    @apply text-3xl font-semibold max-w-max;
+    background: -webkit-radial-gradient(0deg, #fafafa, #a1a1aa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    /* color: transparent; */
+}
+
+@media (min-width: 1024px) {
+    .headline-2 {
+        @apply text-4xl leading-tight
+    }
+}
+
+.container {
+    @apply px-4 mx-auto
+}
+
+@media (min-width: 1024px) {
+    .container {
+        @apply px-8
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        @apply max-w-6xl
+    }
+}
+
+.section {
+    @apply pt-20
+}
+
+@media (min-width: 1280px) {
+    .section {
+        @apply pt-32
+    }
+}
+
+.btn-primary {
+    @apply h-11 bg-sky-400 text-zinc-950
+}
+
+/* /////////Text-field////////// */
+.label {
+    @apply block text-zinc-200 text-sm font-normal mb-2
+}
+
+.text-field {
+    @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent transition-shadow
+}
+
+.text-field:hover {
+    @apply ring-zinc-50/5
+}
+
+.text-field:focus {
+    @apply ring-sky-400 ring-2
+}
+
+.text-field::placeholder{
+    @apply text-zinc-400
+}

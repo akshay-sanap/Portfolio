@@ -1,0 +1,25 @@
+.container {
+    @apply px-4 mx-auto
+}
+
+@media (min-width: 1024px) {
+    .container {
+        @apply px-8
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        @apply max-w-6xl
+    }
+}
+
+.section {
+    @apply pt-20
+}
+
+@media (min-width: 1280px) {
+    .section {
+        @apply pt-32
+    }
+}
