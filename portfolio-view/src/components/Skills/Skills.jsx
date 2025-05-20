@@ -4,9 +4,9 @@ import './skills.css';
 const Skills = () => {
   const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool',
+      imgSrc: '/images/java-icon.svg',
+      label: 'Java',
+      desc: 'Programming',
     },
     {
       imgSrc: '/images/css3.svg',
@@ -43,9 +43,14 @@ const Skills = () => {
       label: 'TailwindCSS',
       desc: 'User Interface',
     },
+    {
+      imgSrc: '/images/bootstrap.svg',
+      label: 'Bootstrap',
+      desc: 'User Interface',
+    },
   ];
   return (
-    <section className="section">
+    <section id='skills' className="section">
       <div className="container">
         <h2 className="headline-2">Essential Tools I use</h2>
         <p className="mb-8 mt-3 max-w-[50ch] text-zinc-400">

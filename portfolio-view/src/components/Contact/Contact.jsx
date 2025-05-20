@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => {
   const socialLinks = [
     {
-      href: 'https://www.github.com/codewithsadee-org',
+      href: 'https://www.github.com/akshay-sanap',
       icon: (
         <svg
           width="24"
@@ -22,7 +22,7 @@ const Contact = () => {
       alt: 'GitHub',
     },
     {
-      href: 'https://www.linkedin.com/in/codewithsadee',
+      href: 'https://www.linkedin.com/in/akshaysanap7',
       icon: (
         <svg
           width="24"
@@ -40,7 +40,7 @@ const Contact = () => {
       alt: 'LinkedIn',
     },
     {
-      href: 'https://x.com/codewithsadee_',
+      href: 'https://x.com/aksh_sanap',
       icon: (
         <svg
           width="24"
@@ -58,7 +58,7 @@ const Contact = () => {
       alt: 'Twitter X',
     },
     {
-      href: 'https://www.instagram.com/codewithsadee',
+      href: 'https://www.instagram.com/aksh_sanap',
       icon: (
         <svg
           width="25"
@@ -102,7 +102,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form action="" method="POST" className="xl:pl-10 2xl:pl-20">
+        <form action="https://getform.io/f/broykvya" method="POST" className="xl:pl-10 2xl:pl-20">
           <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
             <div className="mb-4">
               <label htmlFor="name" className="label">

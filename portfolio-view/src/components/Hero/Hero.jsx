@@ -28,7 +28,9 @@ const Hero = () => {
             Creating smart solutions for tomorrow, today.
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary
+              href="/Akshay_Sanap_8275545877.pdf"
+              download label="Download CV" icon="download" />
             <ButtonOutline
               href="#about"
               label="Scroll down"
